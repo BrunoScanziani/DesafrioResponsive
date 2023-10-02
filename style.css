@@ -1,0 +1,24 @@
+#divCols {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 40% 40%;
+    column-gap: normal;
+}
+
+@media screen and (max-width: 768px) {
+
+    .section {
+      padding: 1rem;
+    }
+
+    .cuadrilla {
+        grid-row-start: 1;
+        grid-row-end: 4;
+        max-width: 25%;
+        max-height: 25%;
+    }
+}
+
+.cuadrilla {
+    
+}
