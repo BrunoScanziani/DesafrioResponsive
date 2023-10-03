@@ -1,24 +1,33 @@
-#divCols {
-    display: grid;
-    grid-template-columns: 40% 40%;
-    grid-template-rows: 40% 40%;
-    column-gap: normal;
+
+.navbar {
+    background-color: #333;
 }
 
-@media screen and (max-width: 768px) {
-
-    .section {
-      padding: 1rem;
-    }
-
-    .cuadrilla {
-        grid-row-start: 1;
-        grid-row-end: 4;
-        max-width: 25%;
-        max-height: 25%;
-    }
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
 }
 
-.cuadrilla {
-    
+
+#secPrincipal {
+    margin-top: 20px;
+}
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+
+.img-fluid {
+    margin: 10px 0;
+    width: 500px;
+    height: auto;
 }
