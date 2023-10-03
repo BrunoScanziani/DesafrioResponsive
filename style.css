@@ -30,4 +30,5 @@ p {
     margin: 10px 0;
     width: 500px;
     height: auto;
+    display: block;
 }
